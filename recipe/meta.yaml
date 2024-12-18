@@ -1,5 +1,5 @@
 {% set name = "hg-setup" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hg_setup-{{ version }}.tar.gz
-  sha256: 4c256774027a81bb409f5a3a95ffa0f71a94501fd3efcf3abde4913e767d5e92
+  sha256: 6f8d1993dbcca0b98e47756182517f33588557fb2900742c78d77d9bee9023c8
 
 build:
   entry_points:
